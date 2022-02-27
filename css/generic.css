@@ -84,12 +84,22 @@
       line-height: 23px;
     }
 
+    @media (max-width: 1350px){
     .NotesIcon {
-      position: absolute;
-      z-index: 100;
-      max-width: 100px;
-      right: 16%;
-      top: 2.5%;
-      padding: 5px;
-      filter: drop-shadow(10px 5px 4px rgba(51,51,51,.65));
-  }
+        position: absolute;
+        z-index: 100;
+        max-width: 100px;
+        right: 13%;
+        top: 2%;
+        padding: 5px;
+        filter: drop-shadow(10px 5px 4px rgba(51,51,51,.65));}
+    }
+    .NotesIcon {
+        position: absolute;
+        z-index: 100;
+        max-width: 100px;
+        right: 16%;
+        top: 2.5%;
+        padding: 5px;
+        filter: drop-shadow(10px 5px 4px rgba(51,51,51,.65));
+    }

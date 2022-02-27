@@ -402,7 +402,7 @@ border-style: dotted;
 hr.hrstyle11 {
 padding-top: 6px;
 
-  background: url(https://shawneee.shawneee.com/img/hr-11.png) repeat-x 0 0;
+  background: url(https://shawneee.com/html-templates//img/hr-11.png) repeat-x 0 0;
     border-top: 22px dotted #e8450c;
     border-bottom: 2px dashed #6600ff;
     background: rgb(0,102,255);
@@ -411,7 +411,7 @@ padding-top: 6px;
 
 hr.hrstyle12 {
   height: 6px;
-  background: url(https://shawneee.shawneee.com/img/hr-12.png) repeat-x 0 0;
+  background: url(https://shawneee.com/html-templates//img/hr-12.png) repeat-x 0 0;
   border: 2px dashed #6600ff;
   background-color: #ff0066;
 }
@@ -454,7 +454,7 @@ hr.hrstyle15 {
 }
 hr.hrstyle15:before {
     font-weight: 900;
-    content: url(https://shawneee.shawneee.com/img/unicorn-solid.svg);
+    content: url(https://shawneee.com/html-templates//img/unicorn-solid.svg);
     width: 40px;
     height: 32px;
     overflow: visible;
@@ -680,12 +680,22 @@ font-style: normal;
 */
 
 
-.NotesIcon {
-  position: absolute;
-  z-index: 100;
-  max-width: 100px;
-  right: 16%;
-  top: 2.5%;
-  padding: 5px;
-  filter: drop-shadow(10px 5px 4px rgba(51,51,51,.65));
-}
+@media (max-width: 1350px){
+  .NotesIcon {
+      position: absolute;
+      z-index: 100;
+      max-width: 100px;
+      right: 13%;
+      top: 2%;
+      padding: 5px;
+      filter: drop-shadow(10px 5px 4px rgba(51,51,51,.65));}
+  }
+  .NotesIcon {
+      position: absolute;
+      z-index: 100;
+      max-width: 100px;
+      right: 16%;
+      top: 2.5%;
+      padding: 5px;
+      filter: drop-shadow(10px 5px 4px rgba(51,51,51,.65));
+  }
