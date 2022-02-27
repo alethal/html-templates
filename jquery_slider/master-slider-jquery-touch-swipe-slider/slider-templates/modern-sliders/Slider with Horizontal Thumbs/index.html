@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Slider with Horizontal Thumbs</title>
+        <!-- Base MasterSlider style sheet -->
+        <link rel="stylesheet" href="../assets/css/masterslider.main.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="../assets/js/jquery.easing.min.js"></script>
+        <!-- Master Slider -->
+        <script src="../assets/js/masterslider.min.js"></script>
+    </head>
+    <body>
+        <!-- MasterSlider -->
+        <div id="P_masterslider" class="master-slider-parent ms-thumbs-template ms-parent-id-59" style="max-width:1000px;" >
+            <!-- MasterSlider Main -->
+            <div id="masterslider" class="master-slider ms-skin-light-3" >
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/6966965057_7c2b054452_o.jpg" />
+                    <img class="ms-thumb" src="images/6966965057_7c2b054452_o.jpg" alt="" />
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/6127282193_5a1140843e_o.jpg" />
+                    <img class="ms-thumb" src="images/6127282193_5a1140843e_o.jpg" alt="" />
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/6012430576_66d4a504d9_o.jpg" />
+                    <img class="ms-thumb" src="images/6012430576_66d4a504d9_o.jpg" alt="" />
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/5973938226_69fa23220e_o.jpg" />
+                    <img class="ms-thumb" src="images/5973938226_69fa23220e_o.jpg" alt="" />
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/5963566800_df2b6c4e4f_o.jpg" />
+                    <img class="ms-thumb" src="images/5963566800_df2b6c4e4f_o.jpg" alt="" />
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/5771861523_7d6db52399_o.jpg" />
+                    <img class="ms-thumb" src="images/5771861523_7d6db52399_o.jpg" alt="" />
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/5743599496_a827ec520e_o.jpg" />
+                    <img class="ms-thumb" src="images/5743599496_a827ec520e_o.jpg" alt="" />
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/5737106423_b40a3bd6a1_o.jpg" />
+                    <img class="ms-thumb" src="images/5737106423_b40a3bd6a1_o.jpg" alt="" />
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/5723487418_02930b2796_o.jpg" />
+                    <img class="ms-thumb" src="images/5723487418_02930b2796_o.jpg" alt="" />
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/5676682203_eb8865d168_o.jpg" />
+                    <img class="ms-thumb" src="images/5676682203_eb8865d168_o.jpg" alt="" />
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/5664919365_b129b52392_o.jpg" />
+                    <img class="ms-thumb" src="images/5664919365_b129b52392_o.jpg" alt="" />
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/5613751328_e53184813a_o.jpg" />
+                    <img class="ms-thumb" src="images/5613751328_e53184813a_o.jpg" alt="" />
+                </div>
+            </div>
+            <!-- END MasterSlider Main -->
+        </div>
+        <!-- END MasterSlider -->
+        <script>
+					var masterslider = new MasterSlider();
+
+			// slider controls
+			masterslider.control('arrows'     ,{ autohide:true, overVideo:true  });
+			masterslider.control('thumblist'  ,{ autohide:false, overVideo:true, dir:'h', speed:17, inset:false, arrows:false, hover:false, customClass:'', align:'bottom',type:'thumbs', margin:5, width:127, height:137, space:5, fillMode:'fill'  });
+			masterslider.control('scrollbar'  ,{ autohide:false, overVideo:true, dir:'h', inset:true, align:'top', color:'#3D3D3D' , margin:10  , width:4 });
+			// slider setup
+			masterslider.setup("masterslider", {
+				width           : 1000,
+				height          : 500,
+				minHeight       : 0,
+				space           : 0,
+				start           : 1,
+				grabCursor      : true,
+				swipe           : true,
+				mouse           : true,
+				keyboard        : false,
+				layout          : "boxed",
+				wheel           : false,
+				autoplay        : true,
+				instantStartLayers:false,
+				loop            : false,
+				shuffle         : false,
+				preload         : 2,
+				heightLimit     : true,
+				autoHeight      : true,
+				smoothHeight    : true,
+				endPause        : false,
+				overPause       : true,
+				fillMode        : "fill",
+				centerControls  : false,
+				startOnAppear   : false,
+				layersMode      : "center",
+				autofillTarget  : "",
+				hideLayers      : false,
+				fullscreenMargin: 0,
+				speed           : 20,
+				dir             : "h",
+				parallaxMode    : 'swipe',
+				view            : "scale"
+			});
+
+					</script>
+    </body>
+</html>

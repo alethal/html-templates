@@ -1,0 +1,95 @@
+ h1 {
+      font-family: "Bookman Old Style";
+      font-size: 23px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 700;
+      line-height: 23px;
+    }
+
+        h2 {
+      font-family: "Bookman Old Style";
+      font-size: 20px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 700;
+      line-height: 23px;
+    }
+
+    h3 {
+      font-family: "Bookman Old Style";
+      font-size: 17px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 700;
+      line-height: 23px;
+    }
+
+        h4 {
+      font-family: "Bookman Old Style";
+      font-size: 14px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 700;
+      line-height: 20px;
+    }
+
+      h5 {
+      font-family: "Bookman Old Style";
+      font-size: 12px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 700;
+      line-height: 20px;
+    }
+
+          h6 {
+      font-family: "Bookman Old Style";
+      font-size: 10px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 700;
+      line-height: 20px;
+    }
+
+    body, p {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 400;
+      line-height: 23px;
+    }
+
+    blockquote {
+      float: right;
+      border-left: 2px #cccccc solid;
+      font-family: "Bookman Old Style";
+      font-size: 17px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 100;
+      line-height: 23px;
+      max-width: 20%;
+      padding:10px;
+      text-align: left;
+    }
+
+    pre {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 100;
+      line-height: 23px;
+    }
+
+    .NotesIcon {
+      position: absolute;
+      z-index: 100;
+      max-width: 100px;
+      right: 16%;
+      top: 2.5%;
+      padding: 5px;
+      filter: drop-shadow(10px 5px 4px rgba(51,51,51,.65));
+  }

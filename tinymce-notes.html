@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>NOTES | StaticDocumentation.ShawnEEE•com</title>
+  <meta name="description" content="get it together girl.">
+  <meta name="author" content="smp">
+  <!-- main gridzy files -
+  ALL GRIDZY css added to shawneee_base_plus_gridzy.css
+  skins/gridzySkinBlank
+  skins/gridzySkinBlur + script.min.js
+  skins/gridzySkinCard + script.min.js
+  skins/gridzySkinClassic
+  skins/gridzySkinFullOverlay
+  skins/gridzySkinLift
+  skins/gridzySkinMagnifiier
+<link rel="stylesheet" href="gridzy/gridzy.min.css" />
+<script src="gridzy/gridzy.min.js"></script>
+// gridzy file for gridzySkinClassic skin
+<link rel="stylesheet" href="gridzy/skins/gridzySkinClassic/style.min.css" />
+-->
+
+
+  <link rel="stylesheet" href="https://use.typekit.net/cwk1wtz.css">
+  <!-- Proxima / Bebas / Arvo
+font-family: proxima-nova, sans-serif;
+font-weight: 400; 300 500 (+font-style: italic;) 700 800
+font-style: normal;
+
+font-family: arvo, serif;
+font-weight: 400; (+font-style: italic;) 700 (+font-style: italic;)
+font-style: normal;
+
+font-family: bebas-neue-pro, sans-serif;
+font-weight: 400; (+ font-style: italic; )
+font-style: normal;
+-->
+
+  <!-- FONT choices -->
+
+  <!-- <link rel="stylesheet" href="https://use.typekit.net/wwe6gkd.css">
+Roboto / Arvo /
+font-family: roboto, sans-serif;
+font-weight: 400; 500 700 900
+font-style: normal;
+
+font-family: roboto-condensed, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: arvo, serif;
+font-weight: 400; 700
+font-style: normal;
+font-style: italic;
+-->
+
+  <!--  Bebas Neue Pro
+<link rel="stylesheet" href="https://use.typekit.net/bao8uis.css">
+font-family: bebas-neue-pro, sans-serif;
+font-weight: 400;( + font-style:italic) 200  500  600 ( + font-style:italic)
+font-style: normal;
+-->
+
+  <!-- Adobe Garamond Pro
+<link rel="stylesheet" href="https://use.typekit.net/ryv1oxx.css">
+font-family: adobe-garamond-pro, serif;
+font-weight: 400; (+ font-style: italic;) 600 (+ font-style: italic;   700 (+ font-style: italic;
+font-style: normal;
+-->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="//shawneee.com/html-templates/css/basic.css">
+  <!--<link rel="stylesheet" href="/css/shawneee_base_plus_gridzy.css">-->
+  <!--<link rel="stylesheet" href="/css/shawneee_base.css">-->
+  <!-- <hr class="hrstyle1">  through hrstyle18   -->
+
+  <!-- reset (if not using a framework) css -->
+  <link rel="/css/normalize.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="//shawneee.com/html-templates/css/notes-css.css">
+  <script src="https://cdn.tiny.cloud/1/jeccwxmak0ygjpexlc65x4ygq853rmzzspyljcv5mxagcuyv/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+</head>
+<body>
+
+  <div class="StaticNotesWrap">
+<div class="StaticNotesPad">
+  <div class="header"> <div class="NotesIcon"><a href="https://staticdocumentation.shawneee.com/notes.html" target="_blank"><img src="//shawneee.com/html-templates/img/notes_icon.svg" width="100%" height="auto" style="max-width: 115px;"></a></div><a href="https://staticdocumentation.shawneee.com" target="_blank"><img src="//shawneee.com/html-templates/img/static-documentation_header.svg" width="100%" height="auto"></a></div>
+
+  <textarea>
+STATIC DOCUMENTATION: NOTES
+  </textarea>
+
+</div>
+</div><!-- NotesWrap / Notes Pad -->
+  <script>
+    tinymce.init({
+     selector: 'textarea',
+     width: '100%', // might have to use  #'s
+    height: '450',
+     menubar: 'file edit view save',
+     menu: {
+    file: { title: 'File', items: 'newdocument restoredraft | preview | print ' },
+    edit: { title: 'Edit', items: 'undo redo | cut copy paste | selectall | searchreplace' },
+    view: { title: 'View', items: 'code | visualaid visualchars visualblocks | spellchecker | preview fullscreen' },
+    insert: { title: 'Insert', items: 'image link media template codesample inserttable | charmap emoticons hr | pagebreak nonbreaking anchor toc | insertdatetime' },
+    format: { title: 'Format', items: 'bold italic underline strikethrough superscript subscript codeformat | formats blockformats fontformats fontsizes align lineheight | forecolor backcolor | removeformat' },
+    tools: { title: 'Tools', items: 'spellchecker spellcheckerlanguage | code wordcount' },
+    table: { title: 'Table', items: 'inserttable | cell row column | tableprops deletetable' },
+    help: { title: 'Help', items: 'help' }
+  },
+ plugins:[
+    'code advlist autolink lists link image charmap print preview hr anchor pagebreak',
+    'searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking',
+    'table emoticons template paste help save'
+        ],
+      toolbar_mode: 'floating',
+      toolbar:  'code | undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | ' +
+     'bullist numlist outdent indent | link image | print preview media fullpage | ' +
+    'forecolor backcolor emoticons | help | save',
+     menu: {
+    favs: {title: 'My Favorites', items: 'code visualaid | searchreplace | emoticons'}
+      },
+ menubar: 'favs file edit view insert format tools table help',
+ content_css: 'css/notes-css.css',
+ theme_advanced_buttons3_add : "save",
+save_enablewhendirty: false,
+save_onsavecallback: 'mysave'
+   });
+
+
+  </script>
+
+
+
+
+
+</body>
+</html>

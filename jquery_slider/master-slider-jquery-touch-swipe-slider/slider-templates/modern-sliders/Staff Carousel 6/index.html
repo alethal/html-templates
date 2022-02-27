@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Staff Carousel 6</title>
+        <!-- Base MasterSlider style sheet -->
+        <link rel="stylesheet" href="../assets/css/masterslider.main.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="../assets/js/jquery.easing.min.js"></script>
+        <!-- Master Slider -->
+        <script src="../assets/js/masterslider.min.js"></script>
+    </head>
+    <body>
+        <!-- MasterSlider -->
+        <div id="P_masterslider" class="master-slider-parent ms-staff-carousel ms-parent-id-52" style="max-width:1000px;" >
+            <!-- MasterSlider Main -->
+            <div id="masterslider" class="master-slider ms-skin-default" >
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/sc4.jpg" />
+                    <div class="ms-info">
+                        <h3 style="text-align: center;">
+                            Lillian W. Reed
+                        </h3>
+                        <div style="text-align: center;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+                            <br />
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </div>
+                    </div>
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/sc3.jpg" />
+                    <div class="ms-info">
+                        <h3 style="text-align: center;">
+                            Terry O. Jackson
+                        </h3>
+                        <div style="text-align: center;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+                            <br />
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </div>
+                    </div>
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/sc7.jpg" />
+                    <div class="ms-info">
+                        <h3 style="text-align: center;">
+                            Gabriel K. Wood
+                        </h3>
+                        <div style="text-align: center;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+                            <br />
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </div>
+                    </div>
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/sc6.jpg" />
+                    <div class="ms-info">
+                        <h3 style="text-align: center;">
+                            Lori M. Walmsley
+                        </h3>
+                        <div style="text-align: center;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+                            <br />
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </div>
+                    </div>
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/sc2.jpg" />
+                    <div class="ms-info">
+                        <h3 style="text-align: center;">
+                            Luis A. Butcher
+                        </h3>
+                        <div style="text-align: center;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+                            <br />
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </div>
+                    </div>
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/sc1.jpg" />
+                    <div class="ms-info">
+                        <h3 style="text-align: center;">
+                            Edith J. Shuster
+                        </h3>
+                        <div style="text-align: center;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+                            <br />
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </div>
+                    </div>
+                </div>
+                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                    <img src="images/blank.gif" alt="" title="" data-src="images/sc5.jpg" />
+                    <div class="ms-info">
+                        <h3 style="text-align: center;">
+                            John L. Diaz
+                        </h3>
+                        <div style="text-align: center;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+                            <br />
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END MasterSlider Main -->
+        </div>
+        <!-- END MasterSlider -->
+        <script>
+					var masterslider = new MasterSlider();
+
+			// slider controls
+			masterslider.control('arrows'     ,{ autohide:true, overVideo:true  });
+			masterslider.control('slideinfo'  ,{ autohide:false, overVideo:true, dir:'h', align:'bottom',inset:false , margin:10   });
+			// slider setup
+			masterslider.setup("masterslider", {
+				width           : 240,
+				height          : 240,
+				minHeight       : 0,
+				space           : 0,
+				start           : 1,
+				grabCursor      : true,
+				swipe           : true,
+				mouse           : true,
+				keyboard        : false,
+				layout          : "partialview",
+				wheel           : true,
+				autoplay        : false,
+				instantStartLayers:false,
+				loop            : true,
+				shuffle         : false,
+				preload         : 4,
+				heightLimit     : true,
+				autoHeight      : false,
+				smoothHeight    : true,
+				endPause        : false,
+				overPause       : true,
+				fillMode        : "fill",
+				centerControls  : true,
+				startOnAppear   : false,
+				layersMode      : "center",
+				autofillTarget  : "",
+				hideLayers      : false,
+				fullscreenMargin: 0,
+				speed           : 20,
+				dir             : "h",
+				parallaxMode    : 'swipe',
+				view            : "flow"
+			});
+
+					</script>
+    </body>
+</html>
